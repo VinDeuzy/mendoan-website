@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffdf7;
+    color: #333;
+}
+
+header {
+    background-color: #8e5b2d;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+#hero {
+    text-align: center;
+    background-color: #f5e9dc;
+    padding: 4rem 2rem;
+}
+
+#hero .btn {
+    display: inline-block;
+    margin-top: 1.5rem;
+    background-color: #8e5b2d;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#menu {
+    padding: 2rem;
+    text-align: center;
+}
+
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.menu-items {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #fffaf5;
+    box-shadow: 0 0 5px rgba(0,0 0 0.1);
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+#kontak {
+    padding: 2rem;
+    background-color: #fDe7dd;
+    text-align: center;
+}
+
+#kontak a {
+    color: #8e5b2d;
+    text-decoration: none;
+}
+
+footer {
+    background: #8e5b2d;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+style
+img {
+    width: 650px;
+    height: 200px;
+    object-fit: cover;
+}
+style
+.wa-button {
+    display:inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0,0 0 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.wa-button:hover {
+    background-color: #1ebe5b;
+}
